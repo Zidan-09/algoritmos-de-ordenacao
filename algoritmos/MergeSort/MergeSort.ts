@@ -1,4 +1,4 @@
-function mergeSort(array: number[]): number[] {
+function mergeSort(array: number[]) {
   const arrayLength = array.length;
 
   if (arrayLength < 2) return;
@@ -52,8 +52,8 @@ const arr: number[] = [10, 5, 3, 9, 8, 1, 2, 5];
 
 console.log(`original: ${arr}`);
 
-const sorted = mergeSort(arr);
+mergeSort(arr);
 
-console.log(`resultado: ${sorted}`);
+console.log(`resultado: ${arr}`);
 
 export {};
